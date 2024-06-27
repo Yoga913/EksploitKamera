@@ -6,7 +6,6 @@ from shodan import Shodan
 from time import sleep as thread_delay
 
 from .__main__ import EksploitKamera
-from badges import Badges
 
 ### 1. Import Statements:
 
@@ -18,7 +17,6 @@ from badges import Badges
 # from time import sleep as thread_delay
 
 # from .__main__ import EksploitKamera
-# from badges import Badges
 
 # - `argparse`: Modul ini digunakan untuk memproses argumen baris perintah yang diberikan saat menjalankan skrip.
 # - `os`: Digunakan untuk berinteraksi dengan sistem operasi, seperti mengatur direktori kerja atau memeriksa keberadaan file.
@@ -26,10 +24,10 @@ from badges import Badges
 # - `threading`: Digunakan untuk membuat dan mengelola threading, yang memungkinkan eksekusi kode secara bersamaan.
 # - `Shodan`: Ini adalah kelas dari modul `shodan`, yang memungkinkan akses ke layanan Shodan untuk memperoleh informasi tentang perangkat dan jaringan.
 # - `thread_delay`: Digunakan untuk memberi jeda antar thread.
-# - `EksploitKamera` dan `Badges`: Kelas-kelas yang diimpor dari file lain (`__main__.py` dan `badges.py`) yang akan digunakan dalam program.
-# - `EksploitKameraCLI` adalah subclass dari `CamOver` dan `Badges`, yang menyediakan antarmuka baris perintah untuk alat `EksploitKamera`.
+# - `EksploitKamera`: Kelas-kelas yang diimpor dari file lain (`__main__.py`) yang akan digunakan dalam program.
+# - `EksploitKameraCLI` adalah subclass dari `EksploitKamera` , yang menyediakan antarmuka baris perintah untuk alat `EksploitKamera`.
 
-class EksploitKameraCLI(EksploitKamera, Badges):
+class EksploitKameraCLI(EksploitKamera):
     """ Subkelas modul eksploitkamera.
 
     Subkelas modul eksploitkamera ini dimaksudkan untuk menyediakan
