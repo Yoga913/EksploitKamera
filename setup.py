@@ -19,3 +19,27 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+from setuptools import setup, find_packages
+
+setup(name='eksploitkamera',
+      version='1.0.0',
+      description=(
+            'EksploitKamera adalah alat eksploitasi kamera yang memungkinkan untuk'
+            ' Pengungkapan kata sandi admin kamera jaringan.'
+      ),
+      url='https://github.com/Yoga913/EksploitKamera',
+      author='Yoga913',
+      license='MIT',
+      python_requires='>=3.7.0',
+      packages=find_packages(),
+      entry_points={
+          "console_scripts": [
+              "eksploitkamera = eksploitkamera.cli:main"
+          ]
+      },
+      install_requires=[
+          'shodan'
+      ],
+      zip_safe=False
+      )
