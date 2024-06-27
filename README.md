@@ -1,4 +1,8 @@
-[gambar](https://github.com/Yoga913/EksploitKamera/blob/main/gambar.jpg)
+## EksploitKamera
+
+<p align="center">
+  <img src="https://github.com/Yoga913/EksploitKamera/blob/main/gambar.jpg" alt="Deskripsi Gambar" width="300">
+</p>
 
 EksploitKamera adalah alat eksploitasi kamera yang memungkinkan pengungkapan kata sandi admin kamera jaringan.
 
