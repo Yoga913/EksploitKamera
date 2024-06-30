@@ -15,7 +15,7 @@ EksploitKamera adalah alat eksploitasi kamera yang memungkinkan pengungkapan kat
 ## Instalasi
 
 ```shell
-pip3 install git+https://github.com/EntySec/CamOver
+pip3 install git+https://github.com/Yoga913/EksploitKamera
 ```
 
 ## Penggunaan dasar
